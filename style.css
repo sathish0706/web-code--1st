@@ -1,0 +1,21 @@
+body{
+    background-color: lightcyan;
+  }
+  .card-body{
+    border: 1px solid green;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+    width: 500px;
+    margin: 5px;
+  }
+  .img-thumbnail{
+    width: 150px;
+    height: 150px;
+  }
+  span{
+    color: red;
+  }
+  h4{
+    color: blue;
+  }
