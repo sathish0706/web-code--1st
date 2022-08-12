@@ -1,6 +1,6 @@
 async function api(){
      try{
-      let result=await fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
+      let result=await fetch("https://makeup-api.herokuapp.com/api/v1/products.json");
 
       let result1=await result.json();
       for(let i=0; i<result1.length; i++){
